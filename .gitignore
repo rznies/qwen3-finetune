@@ -1,0 +1,27 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local datasets and text inputs (don't commit raw data)
+data/
+*.jsonl
+*.txt
+
+# Local training outputs & model weights
+qwen3-0.6b-chat-finetuned/
+output/
+final/
+*.bin
+*.safetensors
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
