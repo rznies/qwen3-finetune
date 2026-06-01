@@ -1,0 +1,20 @@
+# Core training
+torch>=2.0.0
+transformers>=4.45.0
+trl>=0.12.0
+peft>=0.15.0
+datasets>=3.0.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+
+# Quantization (optional, for QLoRA)
+bitsandbytes>=0.43.0
+
+# Monitoring
+trackio
+
+# Modal (for Modal training path)
+modal>=0.65.0
+
+# HuggingFace Hub
+huggingface_hub>=0.24.0

@@ -9,6 +9,8 @@ __pycache__/
 data/
 *.jsonl
 *.txt
+!requirements.txt
+
 
 # Local training outputs & model weights
 qwen3-0.6b-chat-finetuned/
